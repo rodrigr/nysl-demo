@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYSL | Registration</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <img src="img/nysl_logo.png" alt="NYSL logo" id="logo">
+            <h1>Northside Youth Soccer League</h1>
+        </header>
+        <div class="navbar">
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="rules.html">Rules</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+            <h2>Register</h2>
+        </div>
+        <main id="register">
+           <form action="show_data.html">
+               <style>
+                   input{
+                       border: 0;
+                       border-bottom: 2px solid black;
+        
+                   }
+
+                   input:focus{
+                       outline: dotted;
+                   }
+               </style>
+               <fieldset>
+                   <legend>Personal Info</legend>
+                    <label for="first-name">First Name: </label>
+                    <input type="text" placeholder="John"  id="first-name" required>
+                    <label>Last Name: 
+                        <input type="text" placeholder="Smith" >
+                    </label>
+                    <label>Age:
+                        <input type="number" name="age">
+                    </label>
+                    <label for="">
+                        Birth Date:
+                        <input type="date" name="birth-date">
+                    </label>
+               </fieldset>
+                <fieldset>
+                    <label >Female
+                        <input type="radio" name="gender">
+                    </label>
+                   <label >Male
+                    <input type="radio" name="gender" >
+                   </label>
+                   <label >Non Binary
+                    <input type="radio" name="gender" >
+                   </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <label>Read
+                        <input type="checkbox" name="hobbies" value="read">
+                    </label>
+                    <label>Running
+                        <input type="checkbox" name="hobbies" value="running">
+                    </label>
+                    <label>Listen to Music
+                        <input type="checkbox" name="hobbies" value="listen-music">
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <label for="province">Province:</label>
+                    <select name="province" id="province">
+                        <option value="CABA">CABA</option>
+                        <option value="buenos-aires">Buenos Aires</option>
+                        <option value="cordoba">Córdoba</option>
+                    </select>
+                </fieldset>
+                <input type="submit" value="Send">
+           </form>
+        </main>
+        <aside>
+            <h3>Blog</h3>
+            <section>
+                <article>
+                    <a href="blog.html#blog1">
+                        <h4>Title 1</h4>
+                    </a>
+                    <div>
+                        <div>
+                            <img src="img/blog1.jpg" alt="blog 1">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a href="blog.html#blog2">
+                        <h4>Title 2</h4>
+                    </a>
+                    <div>
+                        <div>
+                            <img src="img/blog2.jpg" alt="blog 2">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a href="blog.html#blog3">
+                        <h4>Title 3</h4>
+                    </a>
+                    <div>
+                        <div>
+                            <img src="img/blog3.jpg" alt="blog 3">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a href="blog.html#blog3">
+                        <h4>Title 3</h4>
+                    </a>
+                    <div>
+                        <div>
+                            <img src="img/blog3.jpg" alt="blog 3">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a href="blog.html#blog3">
+                        <h4>Title 3</h4>
+                    </a>
+                    <div>
+                        <div>
+                            <img src="img/blog3.jpg" alt="blog 3">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a href="blog.html#blog3">
+                        <h4>Title 3</h4>
+                    </a>
+                    <div>
+                        <div>
+                            <img src="img/blog3.jpg" alt="blog 3">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </aside>
+        <footer>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+        </footer>
+    </div>
+</body>
+</html>
