@@ -177,6 +177,26 @@ main{
     grid-column: 2 / span 2;
 }
 
+
+
+/* ESTILOS DE TABLA */
+table{
+    border-collapse: collapse;
+    text-align: center;
+    min-width: 50vw;
+}
+td{
+    border:1px solid black;
+}
+
+
+
+/* ESTILOS DE MAPAS */
+
+iframe{
+    width: 300px;
+}
+
 /*Estilos del aside*/
 aside{
     grid-area: aside;
